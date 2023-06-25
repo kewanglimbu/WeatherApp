@@ -1,0 +1,71 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #df4fff36;
+}
+
+
+
+.weathercontent {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 680px;
+    margin-top: 115px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s;
+}
+
+
+    .content h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .content h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+#convertedTemperature {
+    display: none;
+    font-size: 15px;
+    color: #58D68D;
+    border-style: dashed;
+}
+
+
+.datetimeClass {
+    border-style: dotted;
+    border-color: coral;
+}
+
+
+.Pdescription {
+    border-style: dotted;
+    border-color: lightseagreen;
+}

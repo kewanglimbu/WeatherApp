@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "voKUQjYak9YwXzGCtFaQFMqFhWqLlAp9CghPffmWRruw0QuQn056sn9bxq2j4Fltg1ZDcgrFpCDvHFlFHUfy7Q==",
+  "success": true,
+  "projectFilePath": "E:\\ASPNETCore-Features-ImplementCode\\WeatherApplication\\WeatherApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cl_si\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\cl_si\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\cl_si\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\cl_si\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,36 @@
+﻿@model WeatherApplication.Models.WeatherData
+
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container weathercontent">
+
+    <h1 class="display">Today's Weather ⛅@Model.City, @Model.Country </h1>
+
+    <p class="datetimeClass ">Date: <span id="dateTimeDisplay"></span></p>
+
+    <select id="temperatureConversion">
+        <option value="" selected>Select</option>
+        <option value="kelvinToCelsius">Kelvin to Celsius</option>
+        <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+    </select>
+
+    <div class="content">
+        <h3>Temperature: @Model.Temperature K</h3>
+        <h3>Temperature: @Model.Temperature K</h3>
+        <div id="convertedTemperature"></div>
+        <h6>Min Temperature: @Model.MinTemperature K</h6>
+        <h6>Max Temperature: @Model.MaxTemperature K</h6>
+        <h3>Wind Speed: @Model.WindSpeed</h3>
+        <h3>Humidity: @Model.Humidity</h3>
+        <div id="div1">
+            <p class="Pdescription"> classDescription: @Model.Description</p>
+
+        </div>
+    </div>
+</div>
+
